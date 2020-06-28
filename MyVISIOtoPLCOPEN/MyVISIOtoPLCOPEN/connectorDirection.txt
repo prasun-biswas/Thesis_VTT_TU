@@ -1,0 +1,92 @@
+discovered patterns:
+
+one way connection starts from first shape:
+(lower int is start and higher is end shape)
+
+Connections:
+number of connections: 2
+
+_________________________
+
+Source shape id=16, target shape id=10
+
+Source shape id=16, target shape id=14
+
+Shapes:
+number of shapes: 3
+Shape:
+Shape name is Dynamic connector.16
+Shape type is Shape
+Shape has no text
+Shape symbol name is Dynamic connector
+Shape ID is 16
+Shape has shapes (?) false
+Shape text as string 
+Shape starts at:  (2.5555399325084,0.4133858267716554)
+Shape ends at:  (1.145247469066348,0.4133858267716554)
+Shape getPinX at:  (1.850393700787374,0.4133858267716554)
+Shape getHeight-getWidth:  (0.1968503937007874,-1.410292463442052)
+Shape's outline in local cordinate -2.0,0.0
+
+
+*****vs reverse direction******
+
+Source shape id=16, target shape id=14
+
+Source shape id=16, target shape id=10
+
+Shapes:
+number of shapes: 3
+Shape:
+Shape name is Dynamic connector.16
+Shape type is Shape
+Shape has no text
+Shape symbol name is Dynamic connector
+Shape ID is 16
+Shape has shapes (?) false
+Shape text as string 
+Shape starts at:  (1.145247469066348,0.4133858267716554)
+Shape ends at:  (2.5555399325084,0.4133858267716554)
+Shape getPinX at:  (1.850393700787374,0.4133858267716554)
+Shape getHeight-getWidth:  (0.1968503937007874,1.410292463442052)
+Shape's outline in local cordinate 0.0,0.0
+
+
+
+__________________________________________
+
+
+Shape:
+Shape name is Process.10
+Shape type is Shape
+Shape text is 10 Bottom Left
+
+Shape symbol name is Process
+Shape ID is 10
+Shape has shapes (?) false
+Shape text as string 10 Bottom Left
+
+Shape starts at:  (null,null)
+Shape ends at:  (null,null)
+Shape getPinX at:  (0.6531214848143794,0.4133858267716554)
+Shape getHeight-getWidth:  (0.5905511811023622,0.984251968503937)
+Shape's outline in local cordinate 0.0,0.0
+
+Shape:
+Shape name is Process.14
+Shape type is Shape
+Shape text is 1 10JEF21AA403
+
+Shape symbol name is Process
+Shape ID is 14
+Shape has shapes (?) false
+Shape text as string 1 10JEF21AA403
+
+Shape starts at:  (null,null)
+Shape ends at:  (null,null)
+Shape getPinX at:  (3.047665916760368,0.4133858267716554)
+Shape getHeight-getWidth:  (0.2165354330708659,0.984251968503937)
+Shape's outline in local cordinate 0.0,0.0
+
+
+Done
