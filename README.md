@@ -28,29 +28,37 @@ The thesis file is uploaded in this repository "BiswasPrasun.pdf" where all the 
 
 A short description is given using the following pictures.
 
- ![I&C diagram as VISIO file](Thesis_VTT_TU/MyVISIOtoPLCOPEN/MyVISIOtoPLCOPEN/image/visioI&C.PNG )
+ ![I&C diagram as VISIO file](MyVISIOtoPLCOPEN/MyVISIOtoPLCOPEN/image/visioI&C.PNG )
  
+ Figure: I&C diagram as VISIO file
  A number of I&C diagrams were provided. The diagram contained a variety of shapes that were not drawn following any standard. Those diagrams
  were read using Java language with apache.poi library.
  
- ![example of classification rule](Thesis_VTT_TU/MyVISIOtoPLCOPEN/MyVISIOtoPLCOPEN/image/dd_initial_sorting.PNG)
- 
+ ![example of classification rule](MyVISIOtoPLCOPEN/MyVISIOtoPLCOPEN/image/dd_initial_sorting.PNG)
+ Figure: Example of decision diagram for initial shape sorting
  Certain number of classification rules were used to classify the data after analysis.
  
- ![use of graph](Thesis_VTT_TU/MyVISIOtoPLCOPEN/MyVISIOtoPLCOPEN/image/graph_connector.PNG)
- ![use of graph](Thesis_VTT_TU/MyVISIOtoPLCOPEN/MyVISIOtoPLCOPEN/image/graph_shapes.PNG)
+ ![use of graph](MyVISIOtoPLCOPEN/MyVISIOtoPLCOPEN/image/graph_connector.PNG)
+ ![use of graph](MyVISIOtoPLCOPEN/MyVISIOtoPLCOPEN/image/graph_shapes.PNG)
+ 
+ Figure: Use of graph to cluster shapes and connections.
  
  Graph was used in many cases in this project. Example: shape classification, Intermediate model representation etc.
  
- ![intermedia model of identified shapes and connection](Thesis_VTT_TU/MyVISIOtoPLCOPEN/MyVISIOtoPLCOPEN/image/intermediateModel.PNG)
+ ![intermedia model of identified shapes and connection](MyVISIOtoPLCOPEN/MyVISIOtoPLCOPEN/image/intermediateModel.PNG)
+ 
+ Figure: Intermediate model representation with graph-stream
  
  The intermediate model can be used to generate NuSMV script to assist model-checking. In current practice the whole process follows manual steps
  where an analist redraw the I&C diagrams in a model-checking tool with graphical interface. The intermediate model could be used to integrate with
  the model checker by creating an importable file of the software.
  
-  ![NuSMV](Thesis_VTT_TU/MyVISIOtoPLCOPEN/MyVISIOtoPLCOPEN/image/NuSMV.PNG)
-  ![NuSMV](Thesis_VTT_TU/MyVISIOtoPLCOPEN/MyVISIOtoPLCOPEN/image/NuSMV1.PNG)
+  ![NuSMV](MyVISIOtoPLCOPEN/MyVISIOtoPLCOPEN/image/NuSMV.PNG)
+  ![NuSMV](MyVISIOtoPLCOPEN/MyVISIOtoPLCOPEN/image/NuSMV1.PNG)
   
+  Figure: NuSMV script creation from the 
   
+  This proof of concept for the completion of my thesis at VTT. 
+  Supervisors: Dr. Eric Coataner (Tampere University) and Dr. Valeriy Vyatkin (Aalto University)
  
  
