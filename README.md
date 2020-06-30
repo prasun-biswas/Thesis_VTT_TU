@@ -10,9 +10,9 @@ create an intermediate component network consisting of Function Block elements. 
 effort is spent to partially generate NuSMV code from the retrieved component data to assist the
 model checking of the system. Finally, the thesis is concluded with a synopsis of the work done
 and future development scope.
-Keywords: Model transformation, Microsoft VISIO, Nuclear power plant, Instrumentation
-and Control, Function Block Diagram, Formal verification, Model checking, NuSMV.
+Keywords: Model transformation, Microsoft VISIO, Nuclear power plant, Instrumentation and Control, Function Block Diagram, Formal verification, Model checking, NuSMV.
 
+Used tools: Java, Regex, Graph-stream
 
 In nuclear industry still generic drawing tools are in use to design instrumentation and control system and the design layout can be provided
 as VISIO, PDF etc. This research was an attempt to transfer those I&C diagram and build a intermediate model accurately so that the retrieved
@@ -24,4 +24,26 @@ system such as aeroplane, nuclear industry, integrated circuits etc.
 
 
 
-The thesis file is uploaded in this repository "BiswasPrasun.pdf" where all the important steps are explained in details 
+The thesis file is uploaded in this repository "BiswasPrasun.pdf" where all the important steps are explained in details.
+
+A short description is given using the following pictures.
+
+ ![I&C diagram as VISIO file](https://github.com/prasun-biswas/Thesis_VTT_TU/issues/1#issue-648306150 )
+ 
+ A number of I&C diagrams were provided. The diagram contained a variety of shapes that were not drawn following any standard. Those diagrams
+ were read using Java language with apache.poi library.
+ 
+ ![example of classification rule](https://github.com/prasun-biswas/Thesis_VTT_TU/issues/2#issue-648308085)
+ 
+ Certain number of classification rules were used to classify the data after analysis.
+ 
+ ![use of graph](https://github.com/prasun-biswas/Thesis_VTT_TU/issues/3#issue-648309509)
+ 
+ Graph was used in many cases in this project. Example: shape classification, Intermediate model representation etc.
+ 
+ ![intermedia model of identified shapes and connection](https://github.com/prasun-biswas/Thesis_VTT_TU/issues/4#issue-648310663)
+ 
+ The intermediate model can be used to generate NuSMV script to assist model-checking. In current practice the whole process follows manual steps
+ where an analist redraw the I&C diagrams in a model-checking tool with graphical interface. The intermediate model could be used to integrate with
+ the model checker by creating an importable file of the software.
+ 
