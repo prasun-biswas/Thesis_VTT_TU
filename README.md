@@ -28,22 +28,29 @@ The thesis file is uploaded in this repository "BiswasPrasun.pdf" where all the 
 
 A short description is given using the following pictures.
 
- ![I&C diagram as VISIO file](https://github.com/prasun-biswas/Thesis_VTT_TU/issues/1#issue-648306150 )
+ ![I&C diagram as VISIO file](Thesis_VTT_TU/MyVISIOtoPLCOPEN/MyVISIOtoPLCOPEN/image/visioI&C.PNG )
  
  A number of I&C diagrams were provided. The diagram contained a variety of shapes that were not drawn following any standard. Those diagrams
  were read using Java language with apache.poi library.
  
- ![example of classification rule](https://github.com/prasun-biswas/Thesis_VTT_TU/issues/2#issue-648308085)
+ ![example of classification rule](Thesis_VTT_TU/MyVISIOtoPLCOPEN/MyVISIOtoPLCOPEN/image/dd_initial_sorting.PNG)
  
  Certain number of classification rules were used to classify the data after analysis.
  
- ![use of graph](https://github.com/prasun-biswas/Thesis_VTT_TU/issues/3#issue-648309509)
+ ![use of graph](Thesis_VTT_TU/MyVISIOtoPLCOPEN/MyVISIOtoPLCOPEN/image/graph_connector.PNG)
+ ![use of graph](Thesis_VTT_TU/MyVISIOtoPLCOPEN/MyVISIOtoPLCOPEN/image/graph_shapes.PNG)
  
  Graph was used in many cases in this project. Example: shape classification, Intermediate model representation etc.
  
- ![intermedia model of identified shapes and connection](https://github.com/prasun-biswas/Thesis_VTT_TU/issues/4#issue-648310663)
+ ![intermedia model of identified shapes and connection](Thesis_VTT_TU/MyVISIOtoPLCOPEN/MyVISIOtoPLCOPEN/image/intermediateModel.PNG)
  
  The intermediate model can be used to generate NuSMV script to assist model-checking. In current practice the whole process follows manual steps
  where an analist redraw the I&C diagrams in a model-checking tool with graphical interface. The intermediate model could be used to integrate with
  the model checker by creating an importable file of the software.
+ 
+  ![NuSMV](Thesis_VTT_TU/MyVISIOtoPLCOPEN/MyVISIOtoPLCOPEN/image/NuSMV.PNG)
+  ![NuSMV](Thesis_VTT_TU/MyVISIOtoPLCOPEN/MyVISIOtoPLCOPEN/image/NuSMV1.PNG)
+  
+  
+ 
  
