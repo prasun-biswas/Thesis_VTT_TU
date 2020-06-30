@@ -1,1 +1,0 @@
-This repository contains the code I developed for my thesis.
